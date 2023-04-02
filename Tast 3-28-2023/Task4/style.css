@@ -1,0 +1,43 @@
+
+
+
+h2 {
+  background-color: bisque;
+}
+
+.About {
+  color: blue;
+}
+
+cite,
+strong {
+  color: red;
+}
+
+input {
+  margin: 5px;
+}
+
+td {
+  padding: 3px;
+  text-align: center;
+}
+
+.green_text_table {
+  color: rgb(119, 183, 24);
+}
+
+img {
+  float: right;
+  width: 50%;
+  border-radius: 30px;
+}
+
+.coler-num {
+  color: red;
+  text-decoration: underline;
+}
+.submit {
+  border-radius: 10px;
+}
+

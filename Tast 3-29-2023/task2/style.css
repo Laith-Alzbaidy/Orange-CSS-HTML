@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(228, 213, 115);
+}
+
+.Num2 {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.ipsum {
+  background-color: bisque;
+}
+.quis {
+  background-color: rgb(255, 247, 0);
+}
+
+.Num2_alone {
+  background-color: rgb(255, 255, 255);
+  border: 2px dashed rgb(255, 0, 0);
+  padding: 10px;
+  margin: 10px;
+  color: red;
+}
+
+.Num2_alone p {
+  border: dashed red 2px;
+  padding: 5px;
+}

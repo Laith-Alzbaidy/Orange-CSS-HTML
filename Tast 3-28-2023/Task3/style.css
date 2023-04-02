@@ -1,0 +1,13 @@
+.container {
+  text-align: center;
+}
+
+div {
+  padding: 10px;
+}
+body {
+  color: blue;
+}
+::placeholder {
+  color: black;
+}

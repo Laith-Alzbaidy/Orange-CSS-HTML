@@ -1,0 +1,16 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.black {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+}
+
+.pink {
+  height: 50px;
+  width: 100%;
+  background-color: palevioletred;
+}
