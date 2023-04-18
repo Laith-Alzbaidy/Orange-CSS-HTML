@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+}
+
+/* ----------------nav-------------- */
+
+header {
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  font-size: 18px;
+  padding: 0 40px;
+}
+.logo {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  padding: 20px;
+  margin-left: 20px;
+}
+nav ul li:hover {
+  background-color: rgb(0, 150, 136);
+  transition: 0.7s;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 800;
+  color: white;
+}
+
+.fa-solid {
+  color: white;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: black;
+  z-index: 999;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  visibility: hidden;
+}
+.dropdown:hover ul {
+  visibility: visible;
+  transform: translateY(0%);
+}
+.dropdown ul li {
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  padding: 10px 50px;
+}
+
+.minu-icon {
+  position: fixed;
+  right: 0;
+  /* display: none; */
+}
+nav input {
+  position: fixed;
+  right: 34.5px;
+  height: 40px;
+  width: 40px;
+  display: none;
+}
+
+.btn {
+  display: none;
+}
+.btn div {
+  height: 2px;
+  width: 40px;
+  background-color: aliceblue;
+  margin: 14.5px;
+}
+
+
+/* ----------------nav-------------- */
+
+/* ----------------main-------------- */
+
+main {
+  width: 100vw;
+  height: 90vh;
+  background-image: url(img/main-background.jpg);
+  background-position: center ;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+
+}
+
+
+
+main h2 {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+/* ----------------main-------------- */
+
+/* ----------------our team-------------- */
+.our-team {
+  width: 100%;
+  margin-top: 50px;
+}
+.title-ourteam {
+  text-align: center;
+}
+
+.continar-card {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card h2 {
+  margin-bottom: 20px;
+}
+.card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+/* ----------------our team-------------- */
+
+/* ----------------------- customer ------------- */
+
+.customer {
+  width: 100vw;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 20px;
+  margin-top: 50px;
+}
+.continar-customer {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card-c {
+  border: 2px solid black;
+  width: 260px;
+  height: 412px;
+  background-color: white;
+}
+.card-c h3 {
+  font-weight: 500;
+}
+
+.card-c img {
+  width: 100%;
+  height: 200px;
+}
+
+.card-c ul {
+  list-style: none;
+  margin-top: 5px;
+}
+.card-c ul li {
+  margin-top: 5px;
+}
+.content-card {
+  padding: 20px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  width: 500px;
+}
+
+/*----------------------- customer ------------- */
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 30px;
+  background-color: rgb(240, 240, 240);
+  flex-wrap: wrap;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.contact-left a {
+  margin-top: 10px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+}
+.icon a {
+  text-decoration: none;
+}
+
+.icon a i {
+  font-size: 15px;
+  color: black;
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 11px 0 gray;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.contact-right input {
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid rgb(194, 194, 194);
+  background-color: transparent;
+  outline: none;
+}
+.checkbox input {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+/* <!---------------------- Contact------------- --> */
+
+/* <!---------------------- footer------------- --> */
+
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+footer h1 {
+  color: white;
+}
+.foot-icon .fa-brands {
+  color: rgb(0, 150, 136);
+  font-size: 40px;
+  margin-left: 5px;
+}
+/* <!---------------------- footer------------- --> */@
+/* <!---------------------- media------------- --> */@
+@media (max-width: 750px) {
+  .customer {
+    flex-wrap: wrap;
+  }
+  nav {
+    position: relative;
+  }
+  nav .nav-ul {
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    top: 63px;
+    right: 100%;
+    width: 100vw;
+    z-index: 99;
+    background-color: black;
+  }
+
+  nav input:checked ~ .nav-ul {
+    background-color: rgb(0, 0, 0);
+    right: 0;
+    transition: 0.5s;
+  }
+  nav .fa-sharp {
+    display: none;
+  }
+  nav input {
+    display: block;
+    opacity: 0;
+    cursor: pointer;
+  }
+  nav {
+    justify-content: space-between;
+  }
+  .btn {
+    display: block;
+    right: 20px;
+  }
+}
+
+/* <!---------------------- media------------- --> */@
+
+
+
+
