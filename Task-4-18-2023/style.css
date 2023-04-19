@@ -23,12 +23,14 @@ nav {
   justify-content: space-between;
   background-color: black;
   font-size: 18px;
-  padding: 0 40px;
 }
 .logo {
-  color: white;
   text-decoration: none;
   list-style: none;
+}
+
+.nav-ul li:nth-child(1) {
+  background-color: rgb(0, 150, 136);
 }
 
 nav ul {
@@ -38,7 +40,6 @@ nav ul {
 }
 nav ul li {
   padding: 20px;
-  margin-left: 20px;
 }
 nav ul li:hover {
   background-color: rgb(0, 150, 136);
@@ -90,7 +91,7 @@ nav ul li a {
 }
 nav input {
   position: fixed;
-  right: 34.5px;
+  right: 17.5px;
   height: 40px;
   width: 40px;
   display: none;
@@ -112,7 +113,7 @@ nav input {
 
 main {
   width: 100vw;
-  height: 90vh;
+  height: 80vh;
   background-image: url(img/main-background.jpg);
   background-position: center;
   background-size: cover;
@@ -226,6 +227,19 @@ article {
   justify-content: space-between;
   margin-bottom: 20px;
 }
+.contact-left h1 {
+  position: relative;
+}
+.contact-left h1::after {
+  content: '';
+  width: 100px;
+  height: 4px;
+  background-color: rgb(0, 150, 136);
+  position: absolute;
+
+  bottom: -5px;
+  left: 0;
+}
 
 .contact-left a {
   margin-top: 10px;
@@ -300,6 +314,7 @@ footer h1 {
   }
   nav {
     position: relative;
+    padding: 0 20px;
   }
   nav .nav-ul {
     position: absolute;
@@ -326,7 +341,7 @@ footer h1 {
     cursor: pointer;
   }
   nav {
-    justify-content: space-between;
+    justify-content: flex-end;
   }
   .btn {
     display: block;
