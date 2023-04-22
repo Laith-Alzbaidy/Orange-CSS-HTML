@@ -87,7 +87,6 @@ nav ul li a {
 }
 .dropdown:hover ul {
   visibility: visible;
-  transform: translateY(0%);
 }
 .dropdown ul li {
   background-color: black;
@@ -193,7 +192,7 @@ main h2 {
 
 .card-c {
   border: 2px solid black;
-  width: 260px;
+  width: 222px;
   height: 412px;
   background-color: white;
 }
